@@ -14,7 +14,6 @@
 		14032CE61CF44F4000E93504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14032CE51CF44F4000E93504 /* Assets.xcassets */; };
 		14032CE91CF44F4000E93504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14032CE71CF44F4000E93504 /* LaunchScreen.storyboard */; };
 		14032CF41CF44F5600E93504 /* selectPhoto.html in Resources */ = {isa = PBXBuildFile; fileRef = 14032CF21CF44F5600E93504 /* selectPhoto.html */; };
-		14036D531CF57E7E00E4F53A /* testphoto.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 14036D521CF57E7E00E4F53A /* testphoto.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -152,7 +151,6 @@
 				14032CE91CF44F4000E93504 /* LaunchScreen.storyboard in Resources */,
 				14032CE61CF44F4000E93504 /* Assets.xcassets in Resources */,
 				14032CE41CF44F4000E93504 /* Main.storyboard in Resources */,
-				14036D531CF57E7E00E4F53A /* testphoto.JPG in Resources */,
 				14032CF41CF44F5600E93504 /* selectPhoto.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
