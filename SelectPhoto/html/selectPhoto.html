@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Document</title>
+  <style type="text/css">
+    div
+    {
+      height: 60px;
+      width: 200px;
+    }
+
+    #main {
+      margin:0,0,0,0;
+    }
+
+    #buttonCamer {
+      
+      background-color: blue;
+      width: 100px;
+      height: 50px;
+    }
+
+  </style>
+  <script>
+    function displayDate()
+    {
+      var imageHeight = document.getElementById("imageHeight").value;
+      var imageWeight = document.getElementById("imageWeight").value;
+
+      document.getElementById("compman").height=imageHeight;
+      document.getElementById("compman").width=imageWeight;
+
+
+      var camera = document.getElementById("camera").selectedIndex;
+      var imageLibrary = document.getElementById("imageLibrary").selectedIndex;
+
+      var a={"camera":camera,"imageLibrary":imageLibrary};
+      var aToStr=JSON.stringify(a);
+
+      // AppModel是我们所注入的对象
+      window.webkit.messageHandlers.AppModel.postMessage({body: aToStr});
+
+    }
+
+    function changeImage(base64String)
+    {
+      document.getElementById("compman").src = "data:image/jpeg;base64,"+base64String;
+    }
+  </script>
+ </head>
+ <body  id="main">
+   <div>
+      <div>
+        高：<input id="imageHeight" type="text" name="高" value="200"><br>
+      </div>
+      <div>
+        宽：<input id="imageWeight" type="text" name="宽" value="200"><br>
+      </div>
+      <div>摄像头
+        <select id="camera">
+        <option value="before">前置</option>
+        <option value="after">后置</option>
+        </select>
+      </div>
+      <div>图片来源
+        <select id="imageLibrary">
+        <option value="before">相册</option>
+        <option value="after">相机</option>
+        </select>
+      </div>
+      <div>
+        <button id="buttonCamer" type="button" onclick="displayDate()"><p style="color: white;">相机</p></button>
+      </div>
+      <div>
+        <img id="compman" src="testphoto.JPG" width="107" height="98">
+      </div>
+   </div>
+ </body>
+</html>

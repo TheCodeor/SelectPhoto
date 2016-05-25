@@ -13,6 +13,8 @@
 		14032CE41CF44F4000E93504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14032CE21CF44F4000E93504 /* Main.storyboard */; };
 		14032CE61CF44F4000E93504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14032CE51CF44F4000E93504 /* Assets.xcassets */; };
 		14032CE91CF44F4000E93504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14032CE71CF44F4000E93504 /* LaunchScreen.storyboard */; };
+		14032CF41CF44F5600E93504 /* selectPhoto.html in Resources */ = {isa = PBXBuildFile; fileRef = 14032CF21CF44F5600E93504 /* selectPhoto.html */; };
+		14036D531CF57E7E00E4F53A /* testphoto.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 14036D521CF57E7E00E4F53A /* testphoto.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		14032CE51CF44F4000E93504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14032CE81CF44F4000E93504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14032CEA1CF44F4000E93504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14032CF21CF44F5600E93504 /* selectPhoto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = selectPhoto.html; path = /Users/jadefan/Desktop/SelectPhoto/SelectPhoto/html/selectPhoto.html; sourceTree = "<absolute>"; };
+		14036D521CF57E7E00E4F53A /* testphoto.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testphoto.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				14032CDF1CF44F4000E93504 /* ViewController.h */,
 				14032CE01CF44F4000E93504 /* ViewController.m */,
 				14032CE21CF44F4000E93504 /* Main.storyboard */,
+				14032CF01CF44F5600E93504 /* html */,
 				14032CE51CF44F4000E93504 /* Assets.xcassets */,
 				14032CE71CF44F4000E93504 /* LaunchScreen.storyboard */,
 				14032CEA1CF44F4000E93504 /* Info.plist */,
@@ -77,6 +82,14 @@
 				14032CDA1CF44F4000E93504 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14032CF01CF44F5600E93504 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				14036D521CF57E7E00E4F53A /* testphoto.JPG */,
+			);
+			path = html;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +152,8 @@
 				14032CE91CF44F4000E93504 /* LaunchScreen.storyboard in Resources */,
 				14032CE61CF44F4000E93504 /* Assets.xcassets in Resources */,
 				14032CE41CF44F4000E93504 /* Main.storyboard in Resources */,
+				14036D531CF57E7E00E4F53A /* testphoto.JPG in Resources */,
+				14032CF41CF44F5600E93504 /* selectPhoto.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SelectPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Adinnet.SelectPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SelectPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Adinnet.SelectPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +317,7 @@
 				14032CEF1CF44F4000E93504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
