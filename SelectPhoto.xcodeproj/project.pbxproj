@@ -14,6 +14,7 @@
 		14032CE61CF44F4000E93504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14032CE51CF44F4000E93504 /* Assets.xcassets */; };
 		14032CE91CF44F4000E93504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14032CE71CF44F4000E93504 /* LaunchScreen.storyboard */; };
 		14032CF41CF44F5600E93504 /* selectPhoto.html in Resources */ = {isa = PBXBuildFile; fileRef = 14032CF21CF44F5600E93504 /* selectPhoto.html */; };
+		14036D571CF595EB00E4F53A /* selectPhoto.html in Resources */ = {isa = PBXBuildFile; fileRef = 14036D561CF595EB00E4F53A /* selectPhoto.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,7 @@
 		14032CE81CF44F4000E93504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14032CEA1CF44F4000E93504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14032CF21CF44F5600E93504 /* selectPhoto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = selectPhoto.html; path = /Users/jadefan/Desktop/SelectPhoto/SelectPhoto/html/selectPhoto.html; sourceTree = "<absolute>"; };
-		14036D521CF57E7E00E4F53A /* testphoto.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testphoto.JPG; sourceTree = "<group>"; };
+		14036D561CF595EB00E4F53A /* selectPhoto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = selectPhoto.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +87,7 @@
 		14032CF01CF44F5600E93504 /* html */ = {
 			isa = PBXGroup;
 			children = (
-				14036D521CF57E7E00E4F53A /* testphoto.JPG */,
+				14036D561CF595EB00E4F53A /* selectPhoto.html */,
 			);
 			path = html;
 			sourceTree = "<group>";
@@ -152,6 +153,7 @@
 				14032CE61CF44F4000E93504 /* Assets.xcassets in Resources */,
 				14032CE41CF44F4000E93504 /* Main.storyboard in Resources */,
 				14032CF41CF44F5600E93504 /* selectPhoto.html in Resources */,
+				14036D571CF595EB00E4F53A /* selectPhoto.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
